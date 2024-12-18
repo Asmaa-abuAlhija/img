@@ -21,22 +21,22 @@ public class MainActivity extends AppCompatActivity {
     }
     public void right (View view){
         if(c==1){
-            img.setImageResource(R.drawable.);
+            img.setImageResource(R.drawable.pic);
             c=2;
         }
         else{
             if(c==2){
-                img.setImageResource(R.drawable.);
+                img.setImageResource(R.drawable.mia3);
                 c=3;
             }
             else{
                 if(c==3){
-                    img.setImageResource(R.drawable.);
+                    img.setImageResource(R.drawable.el);
                     c=4;
                 }
                 else{
                     if(c==4){
-                        img.setImageResource(R.drawable.);
+                        img.setImageResource(R.drawable.cat);
                         c=5;
                     }
                     else{
@@ -49,17 +49,17 @@ public class MainActivity extends AppCompatActivity {
     }
     public void left (View view){
         if(c==5){
-            img.setImageResource(R.drawable.);
+            img.setImageResource(R.drawable.el);
             c=4;
         }
         else{
             if(c==4){
-                img.setImageResource(R.drawable.);
+                img.setImageResource(R.drawable.mia3);
                 c=3;
             }
             else{
                 if(c==3){
-                    img.setImageResource(R.drawable.);
+                    img.setImageResource(R.drawable.pic);
                     c=2;
                 }
                 else{
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         c=1;
                     }
                     else{
-                        img.setImageResource(R.drawable.);
+                        img.setImageResource(R.drawable.cat);
                         c=5;
                     }
                 }
